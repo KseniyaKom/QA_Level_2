@@ -1,0 +1,39 @@
+1. pwd - Посмотреть где я
+2. mkdir Courses - Создать папку
+3. cd Courses - Зайти в папку
+4. mkdir {folder_1,folder_2,folder_3} - Создать 3 папки
+5. cd folder_1 - Зайти в любую папку
+6. touch {file_1.txt,file_2.txt,file_3.txt,file_4.json,file_5.json} - Создать 5 файлов (3 txt, 2 json)
+7. mkdir {test_1,test_2,test_3} - Создать 3 папки
+8. ls -la - Вывести список содержимого папки
+9. cat file_1.txt - вывести содержимое файла vim file_1.txt - Открыть любой txt файл
+10. Stydying course on Linux terminal, esc- написать туда что-нибудь, любой текст.
+11. :wq - сохранить и выйти.
+12. cd .. - Выйти из папки на уровень выше
+13. mv -t folder_2 folder_1/file_1.txt folder_1/file_2.txt - переместить любые 2 файла, которые вы создали, в любую другую папку.
+14. cp {file_1.txt,file_2.txt} ~/Courses/folder_3 - скопировать любые 2 файла, которые вы создали, в любую другую папку.
+15. find -iname "file*" - Найти файл по имени
+16. tail -f ./folder_1/file_1.txt - просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+ctrl+C - выйти
+17. head -n4 ./folder_2/file_1.txt - вывести несколько первых строк из текстового файла
+18. tail -n2 ./folder_2/file_1.txt - вывести несколько последних строк из текстового файла
+19. less ./folder_2/file_1.txt - просмотреть содержимое длинного файла (команда less) изучите как она работает.
+q - выйти
+20. date - вывести дату и время 
+
+Задание *
+1)  curl http://162.55.220.72:5005 - returns Hello!!
+    curl http://162.55.220.72:5005/terminal-hw-request - returns 404 not found
+2) Чтобы запустить ./file_3.sh
+
+#!/bin/bash
+cd ..
+mkdir Script
+cd Script
+mkdir {test_1,test_2,test_3}
+cd test_1
+touch {file_1.txt,file_2.txt,file_3.txt,file_4.json,file_5.json}
+mkdir {lesson_1,lesson_2,lesson_3}
+ls -la
+mv {file_1.txt,file_2.txt} ~/Courses/Script/test_1/lesson_1
+
