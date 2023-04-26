@@ -1,2 +1,2 @@
-# QA_Level_2
+# Terminal
 Homework
