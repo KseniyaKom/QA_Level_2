@@ -69,7 +69,7 @@ Homework
 ### Task *
 1)  curl http://162.55.220.72:5005 - returns Hello!!
     curl http://162.55.220.72:5005/terminal-hw-request - returns 404 not found
-2) To run the script `./file_3.sh`
+2) To make the file executable `chmod +x ./file_3` To run the script `./file_3.sh`
 
 ```
 #!/bin/bash
