@@ -14,7 +14,7 @@ Homework
 `cd Courses`
 
 ### 4. Create 3 folders:
-`mkdir {folder_1,folder_2,folder_3}`
+`mkdir folder_1 folder_2 folder_3`
 
 ### 5. Go into one of the created folders:
 `cd folder_1`
