@@ -20,10 +20,10 @@ Homework
 `cd folder_1`
 
 ### 6. Create 5 files (3 txt, 2 json):
-`touch {file_1.txt,file_2.txt,file_3.txt,file_4.json,file_5.json}`
+`touch file_1.txt file_2.txt file_3.txt file_4.json file_5.json`
 
 ### 7. Create 3 folders:
-`mkdir {test_1,test_2,test_3}`
+`mkdir test_1 test_2 test_3`
 
 ### 8. Show the content of a folder:
 `ls -la`
