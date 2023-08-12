@@ -1,7 +1,7 @@
 1. pwd - Посмотреть где я
 2. mkdir Courses - Создать папку
 3. cd Courses - Зайти в папку
-4. mkdir {folder_1,folder_2,folder_3} - Создать 3 папки
+4. mkdir folder_1 folder_2 folder_3 - Создать 3 папки
 5. cd folder_1 - Зайти в любую папку
 6. touch {file_1.txt,file_2.txt,file_3.txt,file_4.json,file_5.json} - Создать 5 файлов (3 txt, 2 json)
 7. mkdir {test_1,test_2,test_3} - Создать 3 папки
